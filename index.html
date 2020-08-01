@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ポートフォリオ</title>
+
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <!-- fontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+
+    <style>
+      body {
+        background: #efefef;
+      }
+      .h-img {
+        width: 100%;
+        height: 600px;
+      }
+      .profile-img {
+        width: 80%;
+        height: 30vh;
+      }
+      .row-eq-height img {
+        width: 80%;
+        height: 30vh;
+        /* object-fit: cover; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container bg-white">
+    <!-- header -->
+      <header>
+        <h1 class="text-center pt-5 text-secondary">Keiichiro Portfolio</h1>
+        <!-- nav -->
+        <ul class="nav py-4 px-4 justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"
+              >Contact</a
+            >
+          </li>
+        </ul>
+
+        <img src="img/xps-g2E2NQ5SWSU-unsplash.jpg" class="h-img" alt="top画像" />
+      </header>
+
+     <!-- Profile -->
+    
+      <h2 class="text-center py-5 text-primary">Profile</h2>
+      <div class="row">
+        <div class="col-sm-10 col-md-4 text-center mx-auto">
+          <img src="img/IMG_1046.JPG" class="profile-img rounded-circle" alt="自画像" />
+        </div>
+        <div class="col-sm-10 col-md-8 pt-5 mx-auto">
+          <h3>野宮圭一朗</h3>
+          <p>
+            1985年生まれ。広島県出身。岡山理科大学総合情報学部卒業。<br />会社員で営業をしております。現在は、Webサイト制作を通じて
+            フロントエンドスキルを磨いております。ユーザー目線にたった、快適なWebサイト構築を目指しております。<br>今後もWordPress、
+            PHP等、徐々に技術の幅を広げていきながら、ポートフォリオも随時改善していきたいです。
+          </p>
+        </div>
+      </div>
+
+      <!-- Skill -->
+      <h2 class="text-center py-5 text-primary">Skill</h2>
+
+      <div class="row text-center">
+        <div class="col-sm-10 col-md-4 font-weight-bold border border-dark py-5 mx-auto">
+          <h4>HTML5</h4>
+          <img src="https://img.icons8.com/color/144/000000/html-5.png" />
+        </div>
+        <div class="col-sm-10 col-md-4 font-weight-bold border border-dark py-5 mx-auto">
+          <h4>CSS3</h4>
+          <img src="https://img.icons8.com/color/144/000000/css3.png" />
+        </div>
+        <div class="col-sm-10 col-md-4 font-weight-bold border border-dark py-5 mx-auto">
+          <h4>Bootstrap</h4>
+          <img src="https://img.icons8.com/color/144/000000/bootstrap.png" />
+        </div>
+      </div>
+
+      <!-- Service -->
+      <h2 class="text-center py-5 text-primary">Service</h2>
+
+      <div class="row text-center">
+        <div class="col-sm-10 col-md-4 border border-dark py-5 mx-auto">
+          <h5 class="font-weight-bold pb-3">Webサイト作成</h5>
+          <i class="fas fa-laptop-code fa-7x"></i>
+          <p class="pt-3 text-justify">
+            お客様のご要望のイメージに沿った効果のあるコーポレートサイト、ランディングページのWebサイトを制作致します。
+          </p>
+        </div>
+        <div class="col-sm-10 col-md-4 border border-dark py-5 mx-auto">
+          <h5 class="font-weight-bold pb-3">コーディング</h5>
+          <i class="fas fa-code fa-7x"></i>
+          <p class="pt-3 text-justify">
+            お客様からお預かりしたデザインをHTML、CSS等にて保守・運用も考慮したご要望に沿ったページにコーディング致します。
+          </p>
+        </div>
+        <div class="col-sm-10 col-md-4 border border-dark py-5 mx-auto">
+          <h5 class="font-weight-bold pb-3">レスポンシブ対応</h5>
+          <i class="fas fa-mobile-alt fa-7x"></i>
+          <p class="pt-3 text-justify">
+            パソコン用のWebページをスマートホンやタブレットでも快適に閲覧できる様、対応致します。
+          </p>
+        </div>
+      </div>
+
+      <!-- 模写サンプル -->
+      <h3 class="text-center py-5 text-primary">模写サンプル</h3>
+
+      <div class="row row-eq-height text-center border border-dark py-5">
+        <div class="col-sm-10 col-md-4 mx-auto mb-3">
+          <a href="#" class="stretched-link">
+            <h4 class="text-dark">Sample1</h4>
+            <img
+              class="img-fluid img-thumbnail"
+              src="img/sample1.png"
+              alt="ｻﾝﾌﾟﾙ1"
+            />
+          </a>
+        </div>
+        <div class="col-sm-10 col-md-4 mx-auto mb-3">
+          <a href="#" class="stretched-link">
+            <h4 class="text-dark">Sample2</h4>
+            <img
+              class="img-fluid img-thumbnail"
+              src="img/sample2.png"
+              alt="ｻﾝﾌﾟﾙ2"
+            />
+          </a>
+        </div>
+        <div class="col-sm-10 col-md-4 mx-auto">
+          <a href="#" class="stretched-link">
+            <h4 class="text-dark">Sample3</h4>
+            <img
+              class="img-fluid img-thumbnail"
+              src="img/sample3.png"
+              alt="ｻﾝﾌﾟﾙ3"
+            />
+          </a>
+        </div>
+      </div>
+
+      <!-- contact -->
+      <h2 class="text-center pt-5">お問い合わせ</h2>
+
+      <p class="text-center">
+        制作のご依頼やご相談等ございましたら、お気軽にお問い合わせください。
+      </p>
+
+      <form class="text-center col-10 mx-auto" action="#" method="POST">
+        <div class="form-group">
+          <label for="formGroupExampleInput">お名前</label>
+          <input type="text" class="form-control" id="formGroupExampleInput" />
+        </div>
+        <div class="form-group">
+          <label for="formGroupExampleInput2">E-mail</label>
+          <input type="text" class="form-control" id="formGroupExampleInput2" />
+        </div>
+        <div class="form-group">
+          <label for="formGroupExampleInput2">お問い合わせ内容</label>
+          <textarea
+            name=""
+            id="formGroupExampleInput2"
+            cols="30"
+            rows="3"
+            class="form-control"
+          ></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary mb-5 w-25">送信</button>
+      </form>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer text-center bg-secondary py-4 text-white">
+      Copyright&copy; Keiichiro Portfolio All Rights Reserved.
+    </footer>
+  </body>
+</html>
